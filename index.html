@@ -1,0 +1,45 @@
+<html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+      />
+      <title>Assessement</title>
+    </head>
+    <body>
+      <h1>Assessement</h1>
+      <p>
+        <a href="assessement/index.html#">Home</a>
+      </p>
+      <p>
+        <a href="assessement/about.html#">About</a>
+      </p>
+      <p>
+        <script>
+          const theSumOfTwoNumbers = (nums, target) => {
+            let result = [];
+            for (let i = 0; i < nums.length; i++) {
+              for (let j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] === target) {
+                  return [i, j];
+                }
+              }
+            }
+            return "No matches";
+          };
+          console.log(theSumOfTwoNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10));
+          console.log(theSumOfTwoNumbers([15, 7, 11, 2], 9));
+          console.log(theSumOfTwoNumbers([3, 2, 4], 6));
+        </script>
+      </p>
+    </body>
+  </html>
+</html>
