@@ -8,6 +8,6 @@ Find-The-Sum-of-Two-Numbers
 ## Author
 Godstime .A.
 
-## Technologies
+## How to run this task
  * To run, open the index.html in any browser of your choice and navigate to the console
  
